@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-deep-equal/tags). For example,
+
+```javascript
 import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@v0.1.0-esm/index.mjs';
 ```
 
@@ -89,7 +94,7 @@ bool = deepEqual( { 'a': 2 }, { 'a': [ 2 ] } );
 <body>
 <script type="module">
 
-import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@v0.1.0-esm/index.mjs';
+import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@esm/index.mjs';
 
 var a = [ true, false, true ];
 var b = [ true, false, true ];
