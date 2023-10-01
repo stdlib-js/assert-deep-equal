@@ -52,7 +52,7 @@
     "@stdlib/buffer-from-array": "^0.1.0",
     "@stdlib/buffer-from-string": "^0.1.0",
     "@stdlib/number-ctor": "^0.1.0",
-    "@stdlib/random-base-discrete-uniform": "^0.0.6",
+    "@stdlib/random-base-discrete-uniform": "^0.1.0",
     "@stdlib/utils-inherit": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
