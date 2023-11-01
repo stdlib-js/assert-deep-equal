@@ -45,7 +45,7 @@
     "@stdlib/utils-keys": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-int8": "^0.1.0",
+    "@stdlib/array-int8": "^0.1.1",
     "@stdlib/assert-is-boolean": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/boolean-ctor": "^0.1.1",
