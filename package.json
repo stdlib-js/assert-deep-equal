@@ -47,7 +47,7 @@
   "devDependencies": {
     "@stdlib/array-int8": "^0.1.1",
     "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/boolean-ctor": "^0.1.1",
     "@stdlib/buffer-from-array": "^0.1.0",
     "@stdlib/buffer-from-string": "^0.1.1",
