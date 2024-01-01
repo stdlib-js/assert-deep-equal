@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var Number = require( '@stdlib/number-ctor' );
 var isBoolean = require( '@stdlib/assert-is-boolean' );
 var string2buffer = require( '@stdlib/buffer-from-string' );
