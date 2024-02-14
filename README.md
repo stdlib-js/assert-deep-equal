@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@deno/mod.js';
+import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@v0.2.0-deno/mod.js';
 ```
 
 #### deepEqual( a, b )
@@ -84,7 +84,7 @@ bool = deepEqual( { 'a': 2 }, { 'a': [ 2 ] } );
 <!-- eslint no-undef: "error", object-curly-newline: "off", object-curly-spacing: "off" -->
 
 ```javascript
-import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@deno/mod.js';
+import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@v0.2.0-deno/mod.js';
 
 var a = [ true, false, true ];
 var b = [ true, false, true ];
