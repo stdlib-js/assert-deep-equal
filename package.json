@@ -42,7 +42,8 @@
     "@stdlib/assert-is-error": "^0.2.1",
     "@stdlib/assert-is-regexp": "^0.2.1",
     "@stdlib/utils-get-prototype-of": "^0.2.1",
-    "@stdlib/utils-keys": "^0.2.1"
+    "@stdlib/utils-keys": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-int8": "^0.2.1",
