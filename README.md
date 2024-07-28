@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-deep-equal/tags). For example,
+
+```javascript
 import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@v0.2.2-deno/mod.js';
 ```
 
@@ -84,7 +89,7 @@ bool = deepEqual( { 'a': 2 }, { 'a': [ 2 ] } );
 <!-- eslint no-undef: "error", object-curly-newline: "off", object-curly-spacing: "off" -->
 
 ```javascript
-import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@v0.2.2-deno/mod.js';
+import deepEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-equal@deno/mod.js';
 
 var a = [ true, false, true ];
 var b = [ true, false, true ];
