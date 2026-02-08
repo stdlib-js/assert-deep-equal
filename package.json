@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-deep-equal",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test for deep equality between two values.",
   "license": "Apache-2.0",
   "author": {
@@ -37,22 +37,22 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-buffer": "^0.2.2",
-    "@stdlib/assert-is-date-object": "^0.2.2",
-    "@stdlib/assert-is-error": "^0.2.2",
-    "@stdlib/assert-is-regexp": "^0.2.2",
-    "@stdlib/utils-get-prototype-of": "^0.2.2",
-    "@stdlib/utils-keys": "^0.2.2"
+    "@stdlib/assert-is-buffer": "^0.2.3",
+    "@stdlib/assert-is-date-object": "^0.2.3",
+    "@stdlib/assert-is-error": "^0.2.3",
+    "@stdlib/assert-is-regexp": "^0.2.3",
+    "@stdlib/utils-get-prototype-of": "^0.2.3",
+    "@stdlib/utils-keys": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-int8": "^0.2.2",
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/boolean-ctor": "^0.2.2",
-    "@stdlib/buffer-from-array": "^0.2.2",
-    "@stdlib/buffer-from-string": "^0.2.2",
-    "@stdlib/number-ctor": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/boolean-ctor": "^0.2.3",
+    "@stdlib/buffer-from-array": "^0.2.3",
+    "@stdlib/buffer-from-string": "^0.2.3",
+    "@stdlib/number-ctor": "^0.2.3",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
-    "@stdlib/utils-inherit": "^0.2.2",
+    "@stdlib/utils-inherit": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
