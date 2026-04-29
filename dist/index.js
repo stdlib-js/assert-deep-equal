@@ -1,5 +1,0 @@
-"use strict";var c=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var v=c(function(x,g){
-var l=require('@stdlib/utils-keys/dist'),o=require('@stdlib/utils-get-prototype-of/dist'),p=require('@stdlib/assert-is-date-object/dist'),y=require('@stdlib/assert-is-error/dist'),q=require('@stdlib/assert-is-buffer/dist'),h=require('@stdlib/assert-is-regexp/dist');function a(e,r){var f,i,u,s,n,t;if(u=typeof e,s=typeof r,e===null||u!=="object")return r===null||s!=="object"?e===r:!1;if(s!=="object"||o(e)!==o(r))return!1;if(p(e))return e.getTime()===r.getTime();if(h(e))return e.source===r.source&&e.flags===r.flags;if(y(e)&&(e.message!==r.message||e.name!==r.name))return!1;if(q(e)){if(e.length!==r.length)return!1;for(t=0;t<e.length;t++)if(e[t]!==r[t])return!1;return!0}if(f=l(e),i=l(r),f.length!==i.length)return!1;for(f.sort(),i.sort(),t=0;t<f.length;t++)if(f[t]!==i[t])return!1;for(t=0;t<f.length;t++)if(n=f[t],!a(e[n],r[n]))return!1;return u===s}g.exports=a
-});var m=v();module.exports=m;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
